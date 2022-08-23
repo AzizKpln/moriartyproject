@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|VT323" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/VJzSFXP/t5179-1.png">
+    <title>Documentation - Moriarty Project</title>
+    <style>
+        html,
+        body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        }
+
+        a:link,
+        a:visited {
+        color: white;
+        }
+
+        strong {
+        color: white;
+        }
+
+        body {
+        font-family: "VT323", monospace;
+        color: white;
+        background: black;
+        font-size: 1.25em;
+        }
+
+        .main {
+        padding: 0.1em 0.1em 0.1em 1em;
+
+        }
+
+        .green {
+        color: #34fc47;
+        }
+        .in{
+            font-family: "VT323", monospace;
+            font-size: 23px;
+            background-color: black;
+            color: green;
+            border: none;
+            outline:none;
+            width:70%;
+        }
+        .in:active{
+            border: none;
+            outline:none;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            }
+        a{
+            text-decoration: none;
+    
+        }
+        #div1 {
+        display: inline-block;
+        
+
+    }
+    #div2 {
+        vertical-align:top;
+        display: inline-block;
+        border: 1px solid white;
+        background-color: #1F0905;
+        color:#6ECF08;
+        padding-left: 30px;
+        border-radius: 10px;
+    }
+    #resp{
+        padding:70px;padding-left: 20%;
+    }
+    #ulPadLi{
+        padding-bottom: 15px;
+    }
+    @media screen and (max-width: 1800px) {
+        #resp{
+            padding-left: 10%;
+        }
+    }
+    @media screen and (max-width: 1700px) {
+        #resp{
+            padding-left: 7%;
+        }
+    }
+    @media screen and (max-width: 1600px) {
+        #resp{
+            padding-left: 5%;
+        }
+    }
+    @media screen and (max-width: 1500px) {
+        #resp{
+            padding-left: 1%;
+        }
+    }
+    @media screen and (max-width: 1400px) {
+        #div2{
+           float: right;
+           max-width: 75%;
+        }
+    }
+    @media screen and (max-width: 1390px) {
+        #div2{
+           float: right;
+           max-width: 70%;
+        }
+    }
+    @media screen and (max-width: 1300px) {
+        #div2{
+           float: right;
+           max-width: 65%;
+        }
+    }
+    @media screen and (max-width: 1200px) {
+        #div2{
+           float: right;
+           max-width: 64%;
+        }
+    }
+    @media screen and (max-width: 1100px) {
+        #div2{
+           float: right;
+           max-width: 60%;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .main{
+            display: none;
+        }
+    }
+
+    </style>
+    <SCRIPT>
+        
+        if (window.innerWidth<1000) {
+
+            alert("Your browser width seems too small for a proper use of documentation. Please visit this site via your PC.");
+           
+        }
+        
+     </SCRIPT>
+</head>
+<body>
+  
+    
+
+        <h1 style="text-align:center">Welcome To Moriarty Project Documentation</h1>
+        <img class="center" src="https://i.ibb.co/bvKNrwx/t5179.png" width="128" height="170">
+
+        <p style="text-align:center">
+            Project Type: <span class="green">OSINT</span>
+            <br>
+            Github: <span class="green"><a href="https://github.com/AzizKpln/Moriarty-Project" style="color:yellow;text-decoration: none;" target="_blank">https://github.com/AzizKpln/Moriarty-Project</a></span><br>
+            LinkedIn: <span class="green"><a href="https://www.linkedin.com/in/aziz-k-074604170/" style="color:yellow;text-decoration: none;" target="_blank">https://www.linkedin.com/in/aziz-k-074604170/</a></span><br>
+        </p>
+            <br>
+            <div class="main">
+               
+        <div id="resp" >
+            <div id="div1" style="padding-right: 50px;">
+                <ul >
+                    <li class="green" id="ulPadLi"><a style="color:yellow;" href="about.html">About</a></li>
+                    <li class="green hov" id="ulPadLi"><a href="installation.html" style="color:yellow;"> Getting-Started</a></li>
+                    <ul class="hide">
+                        <li class="green hide" id="ulPadLi"><a href="installation.html" style="color:lightgreen;"> Installation</a></li>
+                        <li class="green hide" id="ulPadLi"><a href="addPhoneNumber.html" style="color:lightgreen;">Adding Phone Number</a></li>
+                        <li class="green hide" id="ulPadLi"><a href="addFeature.html" style="color:lightgreen;">Adding Features</a></li>
+                    
+                       
+                    </ul>
+                    <li class="green"><a href="updates.html" style="color:yellow">Updates</a></li><br>
+                    <li class="green" id="ulPadLi"><a href="qa.html" style="color:yellow">Questions And Answers</a></li>
+                </ul>
+               
+            </div>    
+            <div id="div2" style="width: 70%;">
+                <p style="font-size:30px;">Adding A Phone Number</p>
+                <p style="font-style: oblique;color:#34fc47">add PhoneNumber +{country_code}{phone_number}</p>
+                <p>Example:</p>
+                <p style="font-style: oblique;color:#34fc47">add PhoneNumber +441513128762</p>
+                <br>
+                <p>You can use the below command to see if the phone number is added to the system.</p>
+                <p style="font-style: oblique;color:#34fc47">show options</p>
+            </div>
+        </div>
+
+         
+       
+    </div>
+
+    
+</body>
+</html>
